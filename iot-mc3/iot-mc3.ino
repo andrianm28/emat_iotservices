@@ -118,7 +118,7 @@ void loop() {
 
     HTTPClient http; //Declare object of class HTTPClient
  
-    http.begin("http://guarded-shore-21924.herokuapp.com/energies"); //Specify request destination
+    http.begin("http://emat-beservices.herokuapp.com/energies"); //Specify request destination
     http.addHeader("Content-Type: ", "application/json"); //Specify content-type header
 
     const int energies = JSON_OBJECT_SIZE(6); // declare json variable size
